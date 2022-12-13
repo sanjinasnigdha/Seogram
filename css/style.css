@@ -1,0 +1,803 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+.container{
+	width: 90%;
+	margin: 0px auto;
+}
+.mx-20{
+	margin: 0px 20px;
+}
+.mb-20{
+	margin: 20px;
+}
+.px-20{ 
+	padding: 0px 20px;
+}
+.nav-inner{
+	clear: both;
+	overflow: hidden;
+	
+}
+.nav-inner .title{
+	width: 15%;
+	height: 100%;
+	float: left;
+}
+.nav-inner .title{
+	color: #000;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.5;
+	padding: 30px 10px;	
+	font-family: "Work Sans", sans-serif;
+}
+.nav-inner .title a{
+	text-decoration: none;
+	display:inline-block;
+}
+.nav-inner .title a:hover{
+	color: #5538F8;
+}
+.nav-inner .navbar{ 
+	width:  70%;
+	height: 100%;
+	float: left;
+}
+.nav-inner .navbar ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+}
+.nav-inner .navbar ul li{
+	list-style: none;
+	display: inline-block;
+}
+.nav-inner .navbar ul li a{
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0px 8px;
+	padding: 30px 10px;
+	border-radius: 5px;
+	text-decoration: none;	
+	font-family: "Work Sans", sans-serif;
+	transition: .5s all;
+	display: inline-block;
+}
+.nav-inner .navbar ul li a.active{
+	color: #5538F8;
+}
+.nav-inner .navbar ul li a:hover{
+	color: #5538F8;
+}
+.nav-inner .analysis{
+	width:  15%;
+	height: 100%;
+	float: left;
+}
+.nav-inner .analysis a{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+	margin: 22px 0px;
+	padding: 10px 40px;
+	border-radius: 5px;
+	font-family: "Work Sans", sans-serif;
+	transition: .5s all;
+	background: #5538F8;
+	display: inline-block;
+	
+}
+.nav-inner .analysis a:hover{
+	background: #645F88;
+}
+header{
+	background: #F6F5FC;
+}
+.header-inner{
+	clear: both;
+	overflow: hidden;
+}
+.header-content{
+	width: 50%;
+	float: left;
+	padding: 80px 10px;
+}
+.header-content h2{
+	color: #645f88;
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 500;
+	margin: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.header-content p{
+	color: #645f88;
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: 400;
+	margin: 20px;
+	padding: 10px 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.header-content a{
+	color: #fff;
+	background: #5538F8;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	text-decoration: none;
+	margin: 20px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border-radius: 20px;
+	font-family: "Work Sans", sans-serif;
+}
+.header-content a:hover{
+	background: #645F88;
+}
+.header-poster{
+	width: 50%;
+	float: left;
+}
+.header-poster img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.category-selection{
+	padding: 80px 0px;
+}
+.category-inner-content .card{
+	width: 31%;
+	height: 100%;
+	margin:  0px 12px;
+	float: left;
+	border: 1px solid #fff;
+	background: #F6F5FC;
+	text-align: center;
+	padding: 70px 0px;
+}
+.category-inner-content .card h2{
+	color: #645f88;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
+	margin: 12px 0px;
+	font-weight: 500;
+	font-family: "Work Sans", sans-serif;
+}
+.category-inner-content .card p{
+	color: #898798;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	margin: 4px 0px;
+	font-weight: 400;
+	font-family: "Work Sans", sans-serif;
+}
+.category-inner-content .card a{
+	color: #fff;
+	background: #5538F8;
+	font-size: 16px;
+	line-height: 1.5;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	margin: 12px 0px;
+	padding: 10px 14px;
+	border-radius: 5px;
+	font-weight: 400;
+	font-family: "Work Sans", sans-serif;
+}
+.category-inner-content .card a:hover{
+	background: #645F88;
+}
+.about-section{
+	background: #FFFFFF;
+	padding: 80px 0px;
+	display: inline-block;
+}
+.about-inner{
+	clear: both;
+	overflow: hidden;
+}
+.about-inner-content{
+	width: 50%;
+	float: left;
+	padding: 0px 40px;
+}
+.about-inner-content h2{
+	color: #898798;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+	margin: 10px;
+	font-family: "Work Sans", sans-serif;
+}
+.about-inner-content h3{
+	color: #898798;
+	font-size: 32px;
+	line-height: 1.2;
+	font-weight: 500;
+	margin: 10px;
+	font-family: "Work Sans", sans-serif;
+}
+.about-inner-content p{
+	color: #898798;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+	margin: 20px;
+	padding: 10px 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.about-inner-content a{
+	color: #fff;
+	background: #5538F8;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	text-decoration: none;
+	margin: 20px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-family: "Work Sans", sans-serif;
+}
+.about-inner-content a:hover{
+	background: #645F88;
+}
+.about-inner .about-picture{
+	width: 50%;
+	float: left;
+}
+.about-inner .about-picture img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.service-section{
+	padding: 50px 0px;
+	background: #F6F5FC;
+}
+.service-inner{
+	clear: both;
+	overflow: hidden;
+	padding: 10px 0px;
+}
+.service-inner-title{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	text-align: center;
+}
+.service-inner-title h2{
+	color: rgba(0,0,0,.9);
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+	margin: 10px;
+	font-family: "Work Sans", sans-serif;
+}
+.service-inner-title h3{
+	color:  rgba(0,0,0,.7);
+	font-size: 32px;
+	line-height: 1.2;
+	font-weight: 500;
+	margin: 10px;
+	font-family: "Work Sans", sans-serif;
+}
+
+.service-block{
+	float: left;
+    height: 100%;
+	width: 25%;
+    padding: 30px;
+}
+.service-block .service-block-icon{
+ color: blue;
+ padding-left: 50px;
+}
+.service-block .service-block-content{
+	
+}
+.service-block .service-block-content h2{
+	color: #2d2b3a;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+	font-family: "Work Sans", sans-serif;
+	display: inline-block;
+	padding: 15px 0px 4px 30px;
+    margin: 0px;
+	text-align: center;
+}
+.service-block .service-block-content p{
+	color: #898798;
+	font-size: 13px;
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: "Work Sans", sans-serif;
+	padding: 0px;
+    margin: 0px;
+}
+.website-section{
+	background: #B162F8;
+}
+.website-section h1{
+	color: #fff;
+	font-size: 32px;
+	line-height: 1.2;
+	font-weight: 500;
+	font-family: "Work Sans", sans-serif;
+	padding:  30px 0px;
+	text-align: center;
+}
+.website-section .domain{
+	width: 80%;
+	height: 100%;
+	padding: 20px 7px;
+	margin: 10px;
+	display: inline-block;
+
+}
+.website-section .button{
+	width: 12%;
+	height: 100%;
+	color: #fff;
+	background: #36AD24;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: "Work Sans", sans-serif;
+	padding:  8px 0px;
+	
+}
+.pricing-plan{
+	padding-top: 30px;
+	background: #F6F6F8;
+}
+
+.plan-inner .title{
+	text-align: center;
+	margin: 0px;
+}
+.plan-inner .title h2{
+	color: #898798;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+	display: inline-block;
+    margin: 5px;
+	font-family: "Work Sans", sans-serif;
+}
+.plan-inner .title h3{
+	color: #2d2b3a;
+	font-size: 32px;
+	line-height: 1.2;
+	font-weight: 500;
+    margin: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.plan-section{
+	clear: both;
+	overflow: hidden;
+}
+.plan-card{
+	width: 31%;
+	height: 100%;
+    margin: 40px 13px;
+	float: left;
+	border: 1px solid #fff;
+	background: #fff;
+	text-align: center;
+	padding: 30px 0px;
+}
+.plan-card .plan-type{
+	color: #898798;
+	font-size:16px;
+	line-height: 1.5;
+	font-weight: 400;
+    margin: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.plan-card .price{
+	color: #2d2b3a;
+	font-size: 40px;
+	line-height: 1.2;
+	font-weight: 600;
+    margin: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.plan-card h3{
+	color: #6c55f9;
+	font-size: 30px;
+	line-height: 1.2;
+	font-weight: 500;
+    margin: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.plan-card .plan-body{
+	color: #2d2b3a;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+    margin: 0px;
+	font-family: "Work Sans", sans-serif;
+	
+}
+.plan-card .plan-body span{
+	color: #a4a1c8;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+    margin: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.plan-card .plan-footer{
+	
+}
+.plan-card .plan-footer a{
+	color: #fff;
+	background: #B8B4D5;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	text-decoration: none;
+	display:inline-block;
+	margin: 20px;
+	padding: 12px 40px;
+	border-radius: 5px;
+	transition: .5s all;
+	font-family: "Work Sans", sans-serif;
+}
+.plan-card-md{
+	width: 31%;
+	height: 100%;
+    margin: 40px 13px;
+	float: left;
+	border: 1px solid #fff;
+	background: #5538F8;
+	text-align: center;
+	padding: 30px 0px;
+}
+.plan-card-md .plan-type{
+	color: #fff;
+	font-size:16px;
+	line-height: 1.5;
+	font-weight: 400;
+    margin: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.plan-card-md .price{
+	color: #fff;
+	font-size: 40px;
+	line-height: 1.2;
+	font-weight: 600;
+    margin: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.plan-card-md h3{
+	color: #fff;
+	font-size: 30px;
+	line-height: 1.2;
+	font-weight: 500;
+    margin: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.plan-card-md .plan-body{
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+    margin: 0px;
+	font-family: "Work Sans", sans-serif;
+	
+}
+.plan-card-md.plan-body span{
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+    margin: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.plan-card-md .plan-footer{
+	
+}
+.plan-card-md .plan-footer a{
+	color: #5538F8;
+	background: #fff;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	text-decoration: none;
+	display:inline-block;
+	margin: 20px;
+	padding: 12px 40px;
+	border-radius: 5px;
+	transition: .5s all;
+	font-family: "Work Sans", sans-serif;
+}
+.brand-section{
+	padding: 30px 0px;
+	background: #5439F8;
+}
+.brand-inner{
+	clear: both;
+	overflow: hidden;
+}
+.brand-section .brand-content{
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding: 60px 20px 0px 0px;
+}
+.brand-section .brand-content h1{
+	color: #fff;
+	font-size: 32px;
+	line-height: 1.2;
+	font-weight: 500;
+	padding: 20px 0px;
+    margin: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.brand-section .brand-content p{
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+    margin: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.brand-section .brand-content ul{
+	margin: 0px;
+}
+.brand-section .brand-content ul li{
+	color: #fff;
+}
+.brand-section .brand-content ul li h1{
+	color: #fff;
+	font-size: 20px;
+	line-height: 1.2;
+	font-weight: 500;
+    margin: 0px;
+	padding: 10px 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.brand-section .brand-content ul li p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+    margin: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.brand-section .brand-banner{
+	width: 50%;
+	float: left;
+	padding: 40px 20px;
+}.brand-section .brand-banner img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.blog-section{
+	padding: 80px 0px;
+	background: #F6F6F8;
+}
+.blog-title{
+	text-align: center;
+	margin: 0px;
+}
+.blog-title h1{
+	color: #898798;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+	display: inline-block;
+    margin: 5px;
+	font-family: "Work Sans", sans-serif;
+}
+.blog-title h2{
+	color: #2d2b3a;
+	font-size: 32px;
+	line-height: 1.2;
+	font-weight: 500;
+    margin: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.blog-body{
+	clear: both;
+	overflow: hidden;
+}
+.blog-card{
+	width: 30%;
+	height: 100%;
+    margin: 40px 15px;
+	float: left;
+	border: 1px solid #fff;
+	background: #fff;
+	padding: 30px 0px;
+}
+.blog-card .blog-banner{
+	width: 100%;
+	height: 100%;
+	display: block;
+	
+}
+.blog-card .blog-content{
+	margin-top: 18px;
+}
+.blog-card .blog-content a{
+	color: #2d2b3a;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 500;
+	text-decoration: none;
+	display:inline-block;
+	margin: 0px;
+	padding-bottom: 8px;
+	transition: .5s all;
+	font-family: "Work Sans", sans-serif;
+}
+.blog-card .blog-content a:hover{
+	color: #5538F8;	
+}
+.blog-card .blog-content p{
+	color: #898798;
+	font-size: 13px;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.blog-card .blog-content  p a{
+	color: #5538F8;
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 40;
+	text-decoration: none;
+	display:inline-block;
+	margin: 0px;
+	padding: 0px;
+	transition: .5s all;
+	font-family: "Work Sans", sans-serif;
+}
+.blog-card .blog-content p a:hover{
+	color: #5538F8;	
+	text-decoration: underline;
+}
+.blog-body .footer{
+	text-align: center;
+}
+.blog-body .footer a{
+	color: #fff;
+	background: #5538F8;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	text-decoration: none;
+	display:inline-block;
+	padding: 5px 15px;
+	border-radius: 6px;
+	transition: .5s all;
+	font-family: "Work Sans", sans-serif;
+}
+.blog-body .footer a:hover{
+	color: #fff;
+	background: #2d2b3a;
+}
+.footer-section{
+	padding: 30px 10px;
+	background: #353342;
+}
+.footer-content{
+	clear: both;
+	overflow: hidden;
+}
+.footer-content .footer-card{
+	float: left;
+    height: 100%;
+	width: 23%;
+    padding: 30px 10px;
+	margin: 10px;
+}
+.footer-content .footer-card h2{
+	color: #fff;
+	font-size: 28px;
+	line-height: 34px;
+	font-weight: 500;
+	margin: 15px 0px;
+	padding: 0px 0px;
+	font-family: "Work Sans", sans-serif;
+}
+.footer-content .footer-card p{
+	color: #898798;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+
+.footer-content .footer-card a{
+	 text-decoration: none;
+	 padding: 10px 10px;
+	 border-radius: 17px;
+	 display:inline-block;
+	 background: #fff;
+	 margin: 12px 0px;
+}
+.footer-content .footer-card a:hover{
+	color: #fff;
+	background: #5538F8;
+}
+.footer-content .footer-card .email{
+	padding:12px 11px;
+	margin-top: 15px;
+	border-radius: 5px;
+	display: inline-block;
+}
+.footer-content .footer-card .sub a{
+	color: #fff;
+	background: #21A366;
+	padding:10px 60px;
+	margin-top: 10px;
+	border-radius: 5px;
+	text-align: center;
+	display: inline-block;
+}
+.footer-content .footer-card .sub a:hover{
+	background: #898798;
+	text-align: center;
+}
+.footer-content .footer-card .num{
+	padding-top: 8px;
+}
+.footer-content .footer-card .num a{
+	color: #898798;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	display: inline-block;
+	font-family: "Work Sans", sans-serif;
+}
+.footer-card .num a:hover{
+	color: #fff;
+}
+.footer-end{
+	padding: 20px;
+}
+.footer-end p{
+	color: #898798;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	display: inline-block;
+	margin: 10px 300px;
+	padding: 10px 20px;
+	font-family: "Work Sans", sans-serif;
+}
+.footer-end a{
+	color: #40d48a;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	display: inline-block;
+	text-decoration: none;
+	transition: .5s all;
+	font-family: "Work Sans", sans-serif;
+}
+.footer-end a:hover{
+	color: #40d48a;
+	text-decoration: underline;
+}
